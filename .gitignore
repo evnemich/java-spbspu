@@ -1,0 +1,31 @@
+target/
+build/
+out/
+.idea/
+.gradle/
+*.ids
+*.iws
+*.iml
+*.ipr
+*.log
+gradlew
+gradlew.bat
+
+# Eclipse files
+
+bin/
+tmp/
+.settings/
+.metadata
+.classpath
+.project
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+
+# OS-specific files
+
+[Tt]humbs.db
+*.DS_Store
