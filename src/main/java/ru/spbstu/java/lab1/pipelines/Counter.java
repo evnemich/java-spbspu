@@ -1,4 +1,4 @@
-package ru.spbstu.java.lab1;
+package ru.spbstu.java.lab1.pipelines;
 
 import javax.script.ScriptEngine;
 import javax.script.ScriptEngineManager;
@@ -16,7 +16,7 @@ public class Counter implements Function<String, Double> {
         ScriptEngine engine = mgr.getEngineByName("JavaScript");
         try {
             result = Double.valueOf(engine.eval(s).toString());
-            System.out.println(s + " = " + result + " is " + engine.eval(s).toString());
+//            System.out.println(s + " = " + result);
         } catch (ScriptException e) {
             System.out.println("Wrong Expression");
             e.printStackTrace();
